@@ -1,0 +1,6 @@
+:root {
+    --fur: #AE632C;
+    --mild-fur: #BD926F;
+    --mild-black: rgba(0,0,0,0.25);
+    --top-border: 1px solid var(--mild-black);
+}

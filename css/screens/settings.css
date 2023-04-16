@@ -1,0 +1,37 @@
+.settings-list{
+    padding-top: 100px;
+    font-size: 20px;
+}
+
+.settings-list img {
+    width:25px;
+    height:25px;
+
+}
+.settings-list__divider{
+    height:2px;
+    background-color: var(--mild-black);
+    margin: 15px 0px;
+}
+
+.settings__setting {
+    display:flex;
+    justify-content: space-between;
+}
+
+.settings__setting__column {
+    padding:10px 25px 10px 25px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.settings__setting__column >span {
+    display:block;
+    margin-left: 15px;
+}
+
+li > div:nth-child(2){
+    color: rgba(0,0,0,0.6);
+}

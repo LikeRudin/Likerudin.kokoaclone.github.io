@@ -1,0 +1,45 @@
+
+.nav-bar {
+    position:fixed;
+    bottom:0px; 
+    height:90px;
+    width:100%;
+    background-color: #F9F9FA;
+    padding: 20px 40px 20px 40px; 
+    box-sizing: border-box;
+    border-top: var(--top-border);
+    
+}
+
+.nav-bar__list {
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+
+}
+
+.nav-bar img {
+    width:50px;
+    height:50px;
+}
+.nav-bar i {
+    font-size:50px;
+}
+.nav-bar__btn:nth-child(2){
+    position:relative;
+}
+.nav-bar__notification {
+   position:absolute;
+}
+
+.nav-bar__btn:last-child a {
+    position:relative;
+}
+
+.nav-bar__btn:last-child a span {
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+
+}
+

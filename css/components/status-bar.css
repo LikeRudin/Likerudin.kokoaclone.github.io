@@ -1,0 +1,31 @@
+
+.status-bar {
+    width:97%;
+    position:fixed;
+    display:flex;
+    justify-content: center;
+    padding: 5px 3px;
+}
+
+/**width를 이용해서 3등분*/
+.status-bar__column {
+    width: 33%;
+}
+
+.status-bar__column:first-child span {
+    margin-right: 5px;
+}
+
+.status-bar__column:nth-child(2){
+    display:flex;
+    justify-content: center;
+}
+.status-bar__column:last-child{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+/* margin에 값을 두개만 주면 top, bottom이다.*/
+.status-bar__column .fa-battery-full  {
+    margin:0px 5px;
+}

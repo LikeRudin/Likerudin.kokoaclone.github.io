@@ -1,0 +1,15 @@
+.alt-header {
+    padding: 10px 25px 10px 25px;
+    margin-bottom:20px;
+    font-size:25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:90%;
+    position:fixed;
+    top:10px;
+}
+
+.alt-header__column span:last-child {
+    margin-left: 10px;
+}

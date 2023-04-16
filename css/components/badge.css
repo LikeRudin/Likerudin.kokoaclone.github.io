@@ -1,0 +1,17 @@
+.badge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    background-color: var(--fur);
+    width:24px;
+    height:24px;
+    border-radius:50%;
+    left:30px;
+    bottom: 25px;
+}
+
+.badge-small {
+    width:10px;
+    height:10px;
+}
