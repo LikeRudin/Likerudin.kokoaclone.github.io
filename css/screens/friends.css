@@ -29,4 +29,40 @@ padding: 30px;
     padding: 30px;
 }
 
+@keyframes hideSplashScreen {
+    0% {
+      opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+        transform: rotateZ(180deg);
+    }
+    100% {
+        transform: rotateZ(360deg);
+      opacity: 0;
+      visibility: hidden;
+    }
+  }
 
+#splash-screen {
+    background-color: var(--mild-fur);
+    position: absolute;
+    height:100vh;
+    width:100vw;
+    top:0;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 64px;
+    color: var(--fur);
+    font-weight: bold;
+    animation: hideSplashScreen 0.3s ease-in-out forwards;
+    animation-delay: 2s;
+}
+#splash-screen img {
+    margin-top: 30px;
+    width: 130px;
+    height: 130px;
+
+}

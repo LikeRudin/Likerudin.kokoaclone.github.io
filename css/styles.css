@@ -10,6 +10,7 @@
 @import "components/badge.css";
 @import "components/divider.css";
 @import "components/alt-screen-header.css";
+@import "components/no-mobile.css";
 
 /*screens*/
 @import "screens/login.css";
@@ -21,7 +22,7 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  width:530px;
+  width:100%;
   height:900px;
   font-weight: bold;
   box-sizing: border-box;

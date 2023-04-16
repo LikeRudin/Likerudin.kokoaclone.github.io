@@ -1,10 +1,13 @@
 
 .status-bar {
-    width:97%;
+    top:0px;
+    width:100%;
     position:fixed;
     display:flex;
     justify-content: center;
     padding: 5px 3px;
+    background-color: white;
+    z-index: 1;
 }
 
 /**width를 이용해서 3등분*/
